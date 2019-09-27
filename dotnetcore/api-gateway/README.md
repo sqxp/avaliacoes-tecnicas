@@ -10,15 +10,18 @@ existem muitos frameworks que podem ser utilizados para criar um api gateway (co
 
 ## instruções
 #### 1. a solução deve ser desenvolvida utilizando aspnetcore
-    1. use sua conta do [github](https://github.com/login) (caso não possua, crie uma)
-    1. crie um repositório com nome **sqxp-dotnetcore-api-gateway** nesta conta para manter a solução
+* use sua conta do [github](https://github.com/login) (caso não possua, crie uma)
+* crie um repositório com nome **sqxp-dotnetcore-api-gateway** nesta conta para manter a solução
 
 #### 1. utilizar os apis [sq-pessoas-api](https://github.com/sqxp/sq-pessoas-api) e [sq-medalhas-api](https://github.com/sqxp/sq-medalhas-api)
-    1. estes apis já estão codificados e funcionais
-    1. estes apis utilizam [graphql](https://github.com/graphql-dotnet/graphql-dotnet) como forma de consulta às informações.
+* estes apis já estão codificados e funcionais
+* estes apis utilizam [graphql](https://github.com/graphql-dotnet/graphql-dotnet) como forma de consulta às informações.
 
 #### 1. a solução deve ser conteinerizada com uso do [docker](https://www.docker.com)
-    1. deve conter um arquivo shell ou batch para construir a imagem
+* deve conter um arquivo shell ou batch para construir a imagem
 
 #### 1. deve conter um orquestrador de containers, para isto vamos usar o [docker-compose](https://docs.docker.com/compose/)
-    1. deve então conter o arquivo docker-compose.yml, neste arquivo deve conter todos os containers necessários para **subir** a solução.
+* deve então conter o arquivo docker-compose.yml, neste arquivo deve conter todos os containers necessários para **subir** a solução.
+
+#### 1. a solução deve ter uma documentação README.MD contendo instruções de como subir a solução
+* veja este [exemplo](https://github.com/sqxp/sq-pessoas-api/blob/master/README.md) de documentação
