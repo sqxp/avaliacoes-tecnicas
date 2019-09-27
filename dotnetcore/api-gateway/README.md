@@ -1,6 +1,8 @@
 # dotnetcore-api-gateway
 ## contextualização
 #### **o que é um api gateway?**
+![](https://raw.githubusercontent.com/sqxp/avaliacoes-tecnicas/master/dotnetcore/api-gateway/assets/api-gateway.png)
+
 de maneira simples, um api gateway é um barramento que serve como abstração para requisições à um grupo de apis; ou seja, ele faz o roteamento para um ou mais apis, podendo inclusive abstrair protocolos de comunicação entre estes apis.
 
 ## objetivo
