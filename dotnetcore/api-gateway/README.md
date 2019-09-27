@@ -12,7 +12,7 @@ existem muitos frameworks que podem ser utilizados para criar um api gateway (co
 #### 1. a solução deve ser desenvolvida utilizando aspnetcore
 * use sua conta do [github](https://github.com/login) (caso não possua, crie uma)
 * crie um **fork** do repositório [sq-dotnetcore-api-gateway](https://github.com/sqxp/sq-dotnetcore-api-gateway) para implementar sua solução
-* após finalizada a implementação solicite um **merge request**
+* após finalizada a implementação solicite um [pull request](https://help.github.com/en/articles/about-pull-requests)
 
 #### 2. utilizar os apis [sq-pessoas-api](https://github.com/sqxp/sq-pessoas-api) e [sq-medalhas-api](https://github.com/sqxp/sq-medalhas-api)
 * estes apis já estão codificados e funcionais
