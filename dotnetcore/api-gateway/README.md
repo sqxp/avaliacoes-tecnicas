@@ -11,7 +11,8 @@ existem muitos frameworks que podem ser utilizados para criar um api gateway (co
 ## instruções
 #### 1. a solução deve ser desenvolvida utilizando aspnetcore
 * use sua conta do [github](https://github.com/login) (caso não possua, crie uma)
-* crie um repositório com nome **sqxp-dotnetcore-api-gateway** nesta conta para manter a solução
+* crie um **fork** do repositório [sq-dotnetcore-api-gateway](https://github.com/sqxp/sq-dotnetcore-api-gateway) para implementar sua solução
+* após finalizada a implementação solicite um **merge request**
 
 #### 2. utilizar os apis [sq-pessoas-api](https://github.com/sqxp/sq-pessoas-api) e [sq-medalhas-api](https://github.com/sqxp/sq-medalhas-api)
 * estes apis já estão codificados e funcionais
@@ -24,4 +25,5 @@ existem muitos frameworks que podem ser utilizados para criar um api gateway (co
 * deve então conter o arquivo docker-compose.yml, neste arquivo deve conter todos os containers necessários para **subir** a solução.
 
 #### 5. a solução deve ter uma documentação README.MD contendo instruções de como subir a solução
+* o **fork** criado no item 1, já contém o arquivo README.MD, você deve então escrever a documentação nele
 * veja este [exemplo](https://github.com/sqxp/sq-pessoas-api/blob/master/README.md) de documentação
