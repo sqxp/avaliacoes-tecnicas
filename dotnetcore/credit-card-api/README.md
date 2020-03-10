@@ -134,7 +134,7 @@ Exibe os pagamentos de um Cartão (extrato)
 {
     "number": "012730871",
     "invoice": [
-	    {
+        {
             "id": 1,
             "card_id": 1,
             "item": "pizza",
