@@ -18,7 +18,7 @@
 ___
  ## Requisições de Cliente:
 
- ### POST /cliente
+ ### POST /client
 Cria um cliente no sistema.
 
 **Request Body**
@@ -36,7 +36,7 @@ Cria um cliente no sistema.
 }
 ```
 
- ### GET /cliente/{id}
+ ### GET /client/{id}
 Exibe um cliente do sistema
 
 **Response 200**
@@ -49,7 +49,7 @@ Exibe um cliente do sistema
 
  ## Requisições de cartão:
 
- ### POST /cartao
+ ### POST /card
 Cria um cartão no sistema.
 
 **Request Body**
@@ -70,7 +70,7 @@ Cria um cartão no sistema.
 }
 ```
 
- ### PATCH /cartao/{number}
+ ### PATCH /card/{number}
 Ativa/Desativa um cartão do sistema.
 
 **Request Body**
@@ -90,7 +90,7 @@ Ativa/Desativa um cartão do sistema.
 }
 ```
 
- ### GET /cartao/{number}
+ ### GET /card/{number}
 Exibe um cartão do sistema
 
 **Response 200**
@@ -104,7 +104,7 @@ Exibe um cartão do sistema
 
  ## Requisições de pagamento:
 
- ### POST /pagamento
+ ### POST /payment
 Cria um pagamento no sistema.
 
 **Request Body**
@@ -126,7 +126,7 @@ Cria um pagamento no sistema.
 }
 ```
 
- ### GET /pagamentos/{id_cartao}
+ ### GET /payment/{card_id}
 Exibe os pagamentos de um Cartão (extrato)
 
 **Response 200**
