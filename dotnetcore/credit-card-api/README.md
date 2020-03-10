@@ -111,7 +111,7 @@ Cria um pagamento no sistema.
 ```json
 {
     "card_id": 1,
-    "purchase": "cerveja",
+    "item": "cerveja",
     "cost": 10.5
 }
 ```
@@ -121,7 +121,7 @@ Cria um pagamento no sistema.
 {
     "id": 1,
     "card_id": 1,
-    "purchase": "cerveja",
+    "item": "cerveja",
     "cost": 10.5
 }
 ```
